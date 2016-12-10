@@ -17,5 +17,5 @@ run the following in the root folder of a Lighthouse checkout:
 
     npm run deploy-viewer
 
-This builds `lighthouse-viewer/dist/src/main.js` and pushes the contents of `dist`
+This builds `viewer/dist/src/main.js` and pushes the contents of `dist`
 to the `gh-pages` branch.

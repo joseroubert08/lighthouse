@@ -24,7 +24,7 @@
     "chrome": "lighthouse-core/scripts/launch-chrome.sh",
     "fast": "npm run start -- --disable-device-emulation --disable-cpu-throttling --disable-network-throttling",
     "smokehouse": "node $__node_harmony lighthouse-cli/test/smokehouse/smokehouse.js",
-    "deploy-viewer": "cd lighthouse-viewer && gulp deploy"
+    "deploy-viewer": "cd viewer && gulp deploy"
   },
   "devDependencies": {
     "@types/node": "^6.0.45",
